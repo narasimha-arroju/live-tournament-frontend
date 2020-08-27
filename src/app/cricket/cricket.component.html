@@ -1,0 +1,8 @@
+<div class="container matchesCards" style="margin-top: 30px;">
+    <ngContainer *ngFor="let match of matches">
+        <div [routerLink]="['./live',match.unique_id]" class="matchCard" [style.cursor]="match.matchStarted?'pointer':'not-allowed'" (click)="match.matchStarted || selectMatch(match)">
+            {{match.dateTimeGMT}}<br> <h5><strong>{{match.team_1}} vs {{match.team_2}}</strong> </h5>{{match.type}}
+            <br> {{match.toss_winner_team}}
+        </div>
+    </ngContainer>
+</div>

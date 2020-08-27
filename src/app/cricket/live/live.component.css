@@ -1,0 +1,47 @@
+.mainboard {
+    padding: 10px;
+    /* display: grid;
+    grid-template-columns: auto minmax(500px, 70%) auto; */
+}
+
+.scoreboard {
+    display: grid;
+    grid-template-rows: minmax(150px, 40%) auto;
+}
+
+.scoreboard>.top {
+    display: grid;
+    grid-template-columns: minmax(150px, 30%) 1fr;
+}
+
+.score {
+    float: left;
+    margin: 5px;
+}
+
+.listing {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.listing>div {
+    padding: 7px;
+}
+
+.otherScore {
+    padding-top: 10px;
+    padding-inline: 10px;
+    color: grey;
+}
+
+.currentScore {
+    padding-top: 5px;
+    padding-inline: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.bottom {
+    background: aqua;
+}

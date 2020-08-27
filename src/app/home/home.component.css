@@ -1,0 +1,16 @@
+.card {
+    position: relative;
+    width: 400px;
+    height: 100px;
+    /* padding: 10px; */
+    margin-top: 1%;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px gray;
+}
+
+.sport {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    background: transparent;
+}

@@ -1,0 +1,16 @@
+.header {
+    padding: 5px 20px;
+    background: royalblue;
+}
+
+.title {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.cricket {
+    float: right;
+    text-decoration: none;
+    padding-top: 20px;
+    color: aliceblue;
+}
